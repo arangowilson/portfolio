@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Artista - Portafolio</title>
+</head>
+<body>
+    <header>
+        <h1>Nombre del Artista</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div id="redes-sociales">
+            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a mi Portafolio</h2>
+        <img src="img/obra-destacada.jpg" alt="Obra Destacada">
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <article>
+            <h3>Proyecto 1</h3>
+            <img src="img/proyecto1.jpg" alt="Proyecto 1">
+            <p>Descripción del proyecto 1.</p>
+        </article>
+        <!-- Agregar más proyectos según sea necesario -->
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Ofrezco una variedad de servicios, incluyendo comisiones, clases y más.</p>
+        <!-- Agregar detalles específicos de los servicios -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="enviar.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Nombre del Artista</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

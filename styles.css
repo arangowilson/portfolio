@@ -1,0 +1,84 @@
+
+/* Resetear algunos estilos predeterminados */
+body, ul, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #9C8B79;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Íconos de redes sociales */
+#redes-sociales img {
+    width: 24px;
+    height: auto;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+#inicio {
+    background-color: #3C3B37;
+    color: white;
+}
+
+#proyectos {
+    background-color: #C5B9A4;
+    color: black;
+}
+
+#servicios {
+    background-color: #70665A;
+    color: white;
+}
+
+#contacto {
+    background-color: #AFA290;
+    color: black;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #9C8B79;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
